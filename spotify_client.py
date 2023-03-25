@@ -17,7 +17,7 @@ class SpotifyClient:
 
     def authorizeSpotify(self) -> None:
         self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="0d8a9dd56f844c988299f04101742d37",
-                                               client_secret="e73cf981d22f47d2999894374868252c",
+                                               client_secret="",
                                                redirect_uri="http://localhost:8081/",
                                                scope="user-library-read playlist-modify-private"))
 
